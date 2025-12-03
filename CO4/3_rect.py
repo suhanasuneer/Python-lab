@@ -2,10 +2,7 @@ class Rectangle:
     def __init__(self, l, b):
         self.__length = l     # Private attribute
         self.__breadth = b    # Private attribute
-
-    def getDimensions(self):
-        return self.__length, self.__breadth
-
+        
     def getArea(self):
         return self.__length * self.__breadth
 
